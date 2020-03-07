@@ -1,0 +1,26 @@
+<html>
+<head> <title>Deathly Hallo!</title>
+</head>
+<body>
+  <h1>Its a classic!</h1>
+<p> The Tale of the Three Brothers"  A story from The Beedle and the Bard, as featured in Harry Potter.  (For those of you who are not Harry Potter readers, this book can be purchased separately.)
+
+The story is about three brothers who, travelling together, reach a treacherous river. They make a magical bridge over the river. Halfway across the bridge, they meet the personification of Death who is angry for losing three potential victims. He pretends to be impressed by them and grants each a wish as a reward. The eldest brother asks for an unbeatable dueling wand, so Death gives him the Elder Wand. The middle brother asks for the ability to resurrect the dead, so Death gives him the Resurrection Stone. The youngest brother doesn't trust Death and asks for a way to stop Death from following him, so Death reluctantly gives him his Cloak of Invisibility. Afterwards, the brothers go their separate ways.
+
+The eldest brother, bragging about his powerful wand, is robbed of it and murdered while he is asleep. The middle brother uses his ability to bring back the woman he loved, who died before he could marry her. However, she is not fully alive and is full of sorrow. He kills himself to join her. As for the youngest brother, Death never manages to find him, as he stays hidden under his Cloak. Many years later, the brother removes his cloak and gives it to his son. Pleased with his achievements, he greets Death as an old friend and chooses to leave with him as equals.</p>
+<h2>The Elder Wand</h2>
+<p>The elder wand is the most powerful wand made in wizarding history, it is said to have been made by death himself.On the night the first brother got it he was bragging he then got murdered in his sleep .The elder wands history is well-known for being bloody and full of death
+  </p>
+
+  {% for post in posts %}
+      <div>
+          <p>Was <em>published: {{ post.published_date }}</em></p>
+          <h2><a href="">{{ post.title }}</a></h2>
+          <p>{{ post.text|linebreaksbr }}</p>
+      </div>
+  {% endfor %}
+
+
+
+</body>
+</html>
